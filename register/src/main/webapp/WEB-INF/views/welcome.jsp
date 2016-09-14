@@ -67,24 +67,20 @@
 	                        		</div>
 	                            </div>
 	                            <div class="form-bottom">
-				                    <form role="form" action="" method="post" class="registration-form">
+				                    <form role="form" action="adduser" method="post" class="registration-form">
 				                    	<div class="form-group">
 				                    		<label class="sr-only" for="form-name">Name</label>
-				                        	<input type="text" name="form-name" placeholder="Name..." class="form-name form-control" id="form-name">
+				                        	<input type="text" name="name" placeholder="Name..." class="form-name form-control" id="form-name">
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-password">Password</label>
-				                        	<input type="text" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
+				                        	<input type="text" name="password" placeholder="Password..." class="form-password form-control" id="form-password">
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-email">Email</label>
-				                        	<input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
+				                        	<input type="text" name="email" placeholder="Email..." class="form-email form-control" id="form-email">
 				                        </div>
-				                        <div class="form-group">
-				                        	<label class="sr-only" for="form-about-yourself">About yourself</label>
-				                        	<textarea name="form-about-yourself" placeholder="About yourself..." 
-				                        				class="form-about-yourself form-control" id="form-about-yourself"></textarea>
-				                        </div>
+				                        
 				                        <button type="submit" class="btn">Sign up!</button>
 				                    </form>
 			                    </div>

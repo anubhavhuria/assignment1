@@ -17,7 +17,7 @@ public class UserRegister {
     @Column
     private String Password;
     @Column
-    private String email;
+    private String Email;
     
     public int getUserId() {
         return UserId;
@@ -38,15 +38,15 @@ public class UserRegister {
         this.Password = Password;
     }
     public String getEmail() {
-        return email;
+        return Email;
     }
-    public void setEmail(String email) {
-        this.email = email;
+    public void setEmail(String Email) {
+        this.Email = Email;
     }
     @Override
     public String toString() {
         return "User [UserId=" + UserId + ", Name=" + Name
-                + ", Password="+Password+ ", email=" + email + "]";
+                + ", Password="+Password+ ", Email=" + Email + "]";
     }
      
      
